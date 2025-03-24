@@ -52,6 +52,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/introduction_to_ros2" TYPE EXECUTABLE FILES "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2/introduction_to_ros2")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/introduction_to_ros2/introduction_to_ros2" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/introduction_to_ros2/introduction_to_ros2")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/introduction_to_ros2/introduction_to_ros2"
+         OLD_RPATH "/opt/ros/jazzy/lib:"
+         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/introduction_to_ros2/introduction_to_ros2")
     endif()
