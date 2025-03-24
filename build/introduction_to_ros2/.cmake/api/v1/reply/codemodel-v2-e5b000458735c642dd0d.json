@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e7d0bddbaff6a70a0100.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "introduction_to_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "introduction_to_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introduction_to_ros2-003e6c18c22179c86e42.json",
+					"name" : "introduction_to_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "introduction_to_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-introduction_to_ros2_uninstall-127b800ed37c91412d2e.json",
+					"name" : "introduction_to_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-32aa41e199a06888fe28.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2",
+		"source" : "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/introduction_to_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
