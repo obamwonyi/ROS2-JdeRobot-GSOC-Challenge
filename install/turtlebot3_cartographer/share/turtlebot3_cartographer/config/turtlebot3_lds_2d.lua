@@ -1,0 +1,1 @@
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua

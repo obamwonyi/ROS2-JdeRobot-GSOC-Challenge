@@ -1,0 +1,23 @@
+[0.115s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_msgs -- -j8 -l8
+[0.294s] [  1%] Built target turtlebot3_msgs__cpp
+[0.311s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.330s] [ 12%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[0.428s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.445s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.452s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.452s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.466s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.469s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.518s] [ 80%] Built target turtlebot3_msgs
+[0.572s] [ 81%] Built target turtlebot3_msgs__py
+[0.664s] [ 91%] Built target turtlebot3_msgs__rosidl_generator_py
+[0.725s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[0.729s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[0.730s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.941s] running egg_info
+[0.944s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[0.944s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[0.944s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[0.949s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.950s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[1.015s] [100%] Built target ament_cmake_python_build_turtlebot3_msgs_egg

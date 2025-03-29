@@ -1,0 +1,1 @@
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/ros2_navigation2/ament_cmake_environment_hooks/local_setup.sh

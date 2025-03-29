@@ -1,0 +1,83 @@
+[0.123s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/dynamixel_sdk -- -j8 -l8
+[0.371s] [100%] Built target dynamixel_sdk
+[0.372s] [100%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.631s] running egg_info
+[1.633s] writing dynamixel_sdk.egg-info/PKG-INFO
+[1.634s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[1.635s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[1.642s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.646s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.834s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[2.330s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/dynamixel_sdk -- -j8 -l8
+[2.338s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/dynamixel_sdk
+[2.389s] -- Install configuration: ""
+[2.389s] -- Execute custom install script
+[2.389s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.389s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.389s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.390s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[2.390s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[2.390s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[2.390s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.390s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.391s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.391s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.391s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.391s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.392s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.392s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.395s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.396s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.397s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.398s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[2.402s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[2.402s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.2-py3.10.egg-info/PKG-INFO
+[2.410s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.2-py3.10.egg-info/SOURCES.txt
+[2.411s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.2-py3.10.egg-info/dependency_links.txt
+[2.411s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.2-py3.10.egg-info/top_level.txt
+[2.414s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[2.415s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[2.416s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[2.418s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[2.418s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[2.419s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[2.420s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[2.421s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[2.421s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[2.421s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[2.422s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[2.426s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[2.430s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[2.447s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[2.450s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[2.451s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[2.452s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[2.452s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[2.456s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[2.457s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[2.461s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[2.472s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[2.474s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[2.474s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[2.474s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[2.474s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.474s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.475s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.475s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.479s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.494s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.494s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.495s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.495s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.496s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.497s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.500s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.500s] -- Symlinking: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.547s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.547s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.547s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.548s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.548s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.548s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.597s] Listing '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[2.649s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/dynamixel_sdk

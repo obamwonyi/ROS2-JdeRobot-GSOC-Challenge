@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

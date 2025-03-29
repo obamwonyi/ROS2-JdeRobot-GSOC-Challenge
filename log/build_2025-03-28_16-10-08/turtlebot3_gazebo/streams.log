@@ -1,0 +1,255 @@
+[0.079s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo
+[0.116s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.496s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.546s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.546s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.547s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.547s]   problems in calling code that expects `find_package` result variables
+[0.547s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.547s] Call Stack (most recent call first):
+[0.547s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.548s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.548s]   CMakeLists.txt:23 (find_package)
+[0.548s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.549s] [0m
+[0.622s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.716s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.719s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.728s] -- Searching for dependencies of ignition-math6
+[0.731s] -- Looking for OGRE...
+[0.743s] -- Found Ogre Ghadamon (1.9.0)
+[0.743s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.766s] -- Looking for OGRE_Paging...
+[0.766s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.766s] -- Looking for OGRE_Terrain...
+[0.766s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.766s] -- Looking for OGRE_Property...
+[0.767s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.767s] -- Looking for OGRE_RTShaderSystem...
+[0.768s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.769s] -- Looking for OGRE_Volume...
+[0.769s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.769s] -- Looking for OGRE_Overlay...
+[0.769s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.445s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.446s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.448s] -- Searching for dependencies of ignition-transport8
+[1.497s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.536s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.546s] -- Checking for module 'libzmq >= 4'
+[1.595s] --   Found libzmq , version 4.3.4
+[1.727s] -- Checking for module 'uuid'
+[1.762s] --   Found uuid, version 2.37.2
+[1.868s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.868s] -- Searching for dependencies of ignition-msgs5
+[1.929s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.946s] -- Checking for module 'tinyxml2'
+[1.993s] --   Found tinyxml2, version 9.0.0
+[2.107s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.108s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.109s] -- Searching for dependencies of ignition-common3
+[2.110s] -- Looking for dlfcn.h - found
+[2.110s] -- Looking for libdl - found
+[2.139s] -- Searching for <ignition-common3> component [graphics]
+[2.140s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.141s] -- Searching for dependencies of ignition-common3-graphics
+[2.142s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.144s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.146s] -- Searching for dependencies of ignition-fuel_tools4
+[2.242s] -- Checking for module 'jsoncpp'
+[2.283s] --   Found jsoncpp, version 1.9.5
+[2.383s] -- Checking for module 'libzip'
+[2.415s] --   Found libzip, version 1.7.3
+[2.491s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.493s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.493s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.497s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[2.498s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.542s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.549s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.564s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.720s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.759s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.821s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.827s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.122s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.225s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.263s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[3.435s] -- Configuring done
+[3.564s] -- Generating done
+[3.579s] -- Build files have been written to: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo
+[3.597s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo
+[3.600s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo -- -j8 -l8
+[3.694s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[3.698s] [35m[1mConsolidate compiler generated dependencies of target traffic_light_plugin[0m
+[3.698s] [35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[3.699s] [35m[1mConsolidate compiler generated dependencies of target traffic_bar_plugin[0m
+[3.706s] [35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[3.722s] [35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[3.764s] [ 16%] Built target turtlebot3_drive
+[3.806s] [ 33%] Built target obstacle1
+[3.818s] [ 50%] Built target traffic_light_plugin
+[3.819s] [ 66%] Built target traffic_bar_plugin
+[3.830s] [ 83%] Built target obstacles
+[3.832s] [100%] Built target obstacle2
+[3.859s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo -- -j8 -l8
+[3.865s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo
+[3.886s] -- Install configuration: ""
+[3.887s] -- Execute custom install script
+[3.888s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[3.889s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[3.890s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_robot.launch.py
+[3.890s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_spawn_turtlebot3.launch.py
+[3.890s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[3.890s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[3.891s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace_2020.launch.py
+[3.891s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[3.891s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[3.891s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[3.892s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[3.892s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[3.892s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[3.897s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/checker.png
+[3.897s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/scripts/checker.material
+[3.897s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/textures/checker.png
+[3.897s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.config
+[3.897s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.sdf
+[3.898s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/scripts/course.material
+[3.898s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/textures/course.png
+[3.898s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.config
+[3.899s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.sdf
+[3.899s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/scripts/traffic_bar.material
+[3.899s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/textures/traffic_bar.png
+[3.900s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.config
+[3.900s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.sdf
+[3.900s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material
+[3.901s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/textures/traffic_construction.png
+[3.901s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.config
+[3.902s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.sdf
+[3.902s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts/traffic_intersection.material
+[3.903s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/textures/traffic_intersection.png
+[3.903s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.config
+[3.904s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.sdf
+[3.904s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/scripts/traffic_is_left.material
+[3.906s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/textures/traffic_left.png
+[3.906s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.config
+[3.906s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.sdf
+[3.907s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/scripts/traffic_light.material
+[3.907s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light.png
+[3.907s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_green.png
+[3.907s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_red.png
+[3.908s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_yellow.png
+[3.909s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.config
+[3.909s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.sdf
+[3.909s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts/traffic_noentry.material
+[3.910s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/textures/traffic_noentry.png
+[3.910s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.config
+[3.911s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.sdf
+[3.911s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material
+[3.911s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/textures/traffic_parking.png
+[3.912s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.config
+[3.912s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.sdf
+[3.912s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts/traffic_pl_left.material
+[3.913s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures/traffic_pl_left.png
+[3.913s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.config
+[3.913s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.sdf
+[3.914s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/scripts/traffic_right.material
+[3.914s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/textures/traffic_right.png
+[3.914s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.config
+[3.915s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.sdf
+[3.915s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/scripts/traffic_stop.material
+[3.915s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/textures/traffic_stop.png
+[3.916s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.config
+[3.920s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.sdf
+[3.920s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts/tunnel.material
+[3.920s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures/tunnel.png
+[3.920s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.config
+[3.920s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.sdf
+[3.921s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[3.921s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[3.921s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[3.921s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model-1_4.sdf
+[3.921s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.config
+[3.922s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.sdf
+[3.922s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/burger_base.stl
+[3.922s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_base.stl
+[3.922s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl
+[3.923s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[3.923s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[3.923s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[3.923s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.dae
+[3.923s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.jpg
+[3.923s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/lds.stl
+[3.924s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.dae
+[3.924s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.jpg
+[3.924s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[3.924s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[3.925s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[3.925s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/left_tire.stl
+[3.926s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/right_tire.stl
+[3.926s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[3.926s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[3.927s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[3.927s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[3.927s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[3.928s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[3.928s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[3.928s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[3.929s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[3.929s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[3.930s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[3.930s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[3.931s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[3.931s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[3.932s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[3.932s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[3.932s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[3.932s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[3.932s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[3.932s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[3.933s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[3.933s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[3.933s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[3.933s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[3.933s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[3.934s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[3.934s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[3.935s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[3.935s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[3.936s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger_cam.urdf
+[3.936s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[3.936s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[3.937s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[3.937s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2020.world
+[3.937s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[3.937s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[3.938s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[3.938s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[3.938s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[3.939s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[3.940s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle1.hpp
+[3.940s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle2.hpp
+[3.940s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacles.hpp
+[3.941s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_bar_plugin.hpp
+[3.941s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_light_plugin.hpp
+[3.942s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[3.943s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[3.943s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[3.944s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[3.944s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[3.945s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[3.946s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[3.946s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[3.946s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[3.946s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[3.947s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[3.948s] -- Symlinking: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[3.968s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[3.968s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.968s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.969s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[3.969s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[3.969s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[4.014s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_gazebo

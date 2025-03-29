@@ -1,0 +1,119 @@
+[0.107s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/introduction_to_ros2 -DCMAKE_INSTALL_PREFIX=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2
+[0.153s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.500s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.568s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.575s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.587s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.747s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.171s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.171s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.171s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.171s]   problems in calling code that expects `find_package` result variables
+[1.172s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.172s] Call Stack (most recent call first):
+[1.172s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.172s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.172s]   CMakeLists.txt:12 (find_package)
+[1.172s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.172s] [0m
+[1.226s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.284s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.287s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.296s] -- Searching for dependencies of ignition-math6
+[1.298s] -- Looking for OGRE...
+[1.310s] -- Found Ogre Ghadamon (1.9.0)
+[1.310s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.325s] -- Looking for OGRE_Paging...
+[1.325s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.325s] -- Looking for OGRE_Terrain...
+[1.325s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.325s] -- Looking for OGRE_Property...
+[1.326s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.326s] -- Looking for OGRE_RTShaderSystem...
+[1.326s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.326s] -- Looking for OGRE_Volume...
+[1.326s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.326s] -- Looking for OGRE_Overlay...
+[1.327s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.769s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.769s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.770s] -- Searching for dependencies of ignition-transport8
+[1.817s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.858s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.871s] -- Checking for module 'libzmq >= 4'
+[1.939s] --   Found libzmq , version 4.3.4
+[2.058s] -- Checking for module 'uuid'
+[2.096s] --   Found uuid, version 2.37.2
+[2.220s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.221s] -- Searching for dependencies of ignition-msgs5
+[2.291s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.301s] -- Checking for module 'tinyxml2'
+[2.340s] --   Found tinyxml2, version 9.0.0
+[2.420s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.420s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.422s] -- Searching for dependencies of ignition-common3
+[2.422s] -- Looking for dlfcn.h - found
+[2.422s] -- Looking for libdl - found
+[2.457s] -- Searching for <ignition-common3> component [graphics]
+[2.457s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.458s] -- Searching for dependencies of ignition-common3-graphics
+[2.458s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.461s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.465s] -- Searching for dependencies of ignition-fuel_tools4
+[2.623s] -- Checking for module 'jsoncpp'
+[2.661s] --   Found jsoncpp, version 1.9.5
+[2.756s] -- Checking for module 'libzip'
+[2.790s] --   Found libzip, version 1.7.3
+[2.864s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.865s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.866s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.869s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.896s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.898s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.205s] -- Found turtlebot3_description: 2.2.5 (/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake)
+[3.209s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.336s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.337s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/introduction_to_ros2/include>
+[3.337s] -- Configured cppcheck exclude dirs and/or files: 
+[3.338s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.341s] -- Added test 'lint_cmake' to check CMake code style
+[3.341s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.348s] -- Added test 'uncrustify' to check C / C++ code style
+[3.348s] -- Configured uncrustify additional arguments: 
+[3.349s] -- Added test 'xmllint' to check XML markup files
+[3.351s] -- Configuring done
+[3.373s] -- Generating done
+[3.381s] -- Build files have been written to: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2
+[3.400s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/introduction_to_ros2 -DCMAKE_INSTALL_PREFIX=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2
+[3.403s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2 -- -j8 -l8
+[3.472s] [35m[1mConsolidate compiler generated dependencies of target introduction_to_ros2[0m
+[3.499s] [100%] Built target introduction_to_ros2
+[3.517s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2 -- -j8 -l8
+[3.520s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2
+[3.531s] -- Install configuration: ""
+[3.531s] -- Execute custom install script
+[3.532s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/lib/introduction_to_ros2/introduction_to_ros2
+[3.532s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/launch/turtlebot3_gazebo_rviz.launch.py
+[3.533s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2//launch/turtlebot3_gazebo_rviz.launch.py
+[3.533s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2//rviz/turtlebot3_mode.rviz
+[3.534s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/ament_index/resource_index/package_run_dependencies/introduction_to_ros2
+[3.534s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/ament_index/resource_index/parent_prefix_path/introduction_to_ros2
+[3.534s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/environment/ament_prefix_path.sh
+[3.535s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/environment/ament_prefix_path.dsv
+[3.535s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/environment/path.sh
+[3.535s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/environment/path.dsv
+[3.536s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/local_setup.bash
+[3.536s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/local_setup.sh
+[3.536s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/local_setup.zsh
+[3.537s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/local_setup.dsv
+[3.537s] -- Symlinking: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/package.dsv
+[3.552s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/ament_index/resource_index/packages/introduction_to_ros2
+[3.552s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/cmake/introduction_to_ros2Config.cmake
+[3.553s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/cmake/introduction_to_ros2Config-version.cmake
+[3.553s] -- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/introduction_to_ros2/share/introduction_to_ros2/package.xml
+[3.556s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_teleop:/home/netweaver/Projects/GSOC/JdeRobot/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/introduction_to_ros2

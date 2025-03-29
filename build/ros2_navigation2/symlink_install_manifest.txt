@@ -1,0 +1,17 @@
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/lib/ros2_navigation2/ros2_navigation2
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/lib/ros2_navigation2/waypoint_navigator.py
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ament_index/resource_index/package_run_dependencies/ros2_navigation2
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ament_index/resource_index/parent_prefix_path/ros2_navigation2
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/environment/ament_prefix_path.sh
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/environment/ament_prefix_path.dsv
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/environment/path.sh
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/environment/path.dsv
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/local_setup.bash
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/local_setup.sh
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/local_setup.zsh
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/local_setup.dsv
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/package.dsv
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ament_index/resource_index/packages/ros2_navigation2
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/cmake/ros2_navigation2Config.cmake
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/cmake/ros2_navigation2Config-version.cmake
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/share/ros2_navigation2/package.xml

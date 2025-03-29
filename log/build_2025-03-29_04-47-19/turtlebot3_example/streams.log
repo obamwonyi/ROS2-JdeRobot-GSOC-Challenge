@@ -1,0 +1,21 @@
+[1.316s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_example/build --no-deps symlink_data
+[1.748s] running develop
+[2.045s] running egg_info
+[2.045s] writing turtlebot3_example.egg-info/PKG-INFO
+[2.045s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[2.045s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[2.046s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[2.046s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[2.048s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.049s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.051s] running build_ext
+[2.051s] Creating /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[2.052s] Installing turtlebot3_interactive_marker script to /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.052s] Installing turtlebot3_obstacle_detection script to /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.052s] Installing turtlebot3_patrol_client script to /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.052s] Installing turtlebot3_patrol_server script to /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.053s] Installing turtlebot3_position_control_pointop_key script to /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.053s] 
+[2.053s] Installed /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_example
+[2.053s] running symlink_data
+[2.109s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_example/build --no-deps symlink_data

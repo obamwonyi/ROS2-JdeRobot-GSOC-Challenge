@@ -1,0 +1,7 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces:msg/SetPosition.msg",
+    "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces:srv/GetPosition.srv"
+  ]
+}

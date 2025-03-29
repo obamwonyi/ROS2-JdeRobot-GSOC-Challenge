@@ -1,0 +1,34 @@
+[2.131s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop': PYTHONPATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/build
+[2.780s] running develop
+[3.228s] Removing /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[3.293s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/build
+[3.296s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/build install --record /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force
+[3.877s] running egg_info
+[3.877s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[3.878s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[3.878s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[3.878s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[3.878s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[3.881s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.883s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[3.884s] running build
+[3.884s] running build_py
+[3.884s] running install
+[3.885s] running install_lib
+[3.887s] creating /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[3.887s] creating /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[3.887s] copying /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[3.888s] copying /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[3.888s] copying /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[3.890s] byte-compiling /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[3.892s] byte-compiling /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc
+[3.894s] byte-compiling /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc
+[3.894s] running install_data
+[3.894s] copying resource/turtlebot3_teleop -> /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[3.894s] copying package.xml -> /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[3.895s] running install_egg_info
+[3.899s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.2.5-py3.10.egg-info
+[3.901s] running install_scripts
+[3.945s] Installing teleop_keyboard script to /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[3.945s] writing list of installed files to '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/install.log'
+[4.017s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/build install --record /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force

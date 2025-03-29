@@ -1,0 +1,12 @@
+[100%] Built target ros2_navigation2
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/ros2_navigation2/lib/ros2_navigation2/ros2_navigation2
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/ros2_navigation2/scripts/navigate_waypoints.py'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:46 (include)
+
+[0m

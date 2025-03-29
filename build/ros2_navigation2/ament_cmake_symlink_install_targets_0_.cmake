@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/ros2_navigation2/ros2_navigation2" "TARGETS" "ros2_navigation2" "DESTINATION" "lib/ros2_navigation2")

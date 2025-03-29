@@ -1,0 +1,15 @@
+[6.814s] Invoking command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/venv/lib/python3.10/site-packages/pkg_resources/tests/data/my-test-package-source': PYTHONPATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/my-test-package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/my-test-package/build install --record /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/my-test-package/install.log --single-version-externally-managed
+[9.208s] running egg_info
+[9.210s] writing ../../../../../../../../build/my-test-package/my_test_package.egg-info/PKG-INFO
+[9.216s] writing dependency_links to ../../../../../../../../build/my-test-package/my_test_package.egg-info/dependency_links.txt
+[9.221s] writing top-level names to ../../../../../../../../build/my-test-package/my_test_package.egg-info/top_level.txt
+[9.226s] reading manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[9.227s] writing manifest file '../../../../../../../../build/my-test-package/my_test_package.egg-info/SOURCES.txt'
+[9.237s] running build
+[9.238s] running install
+[9.238s] running install_egg_info
+[9.255s] removing '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/my-test-package/lib/python3.10/site-packages/my_test_package-1.0-py3.10.egg-info' (and everything under it)
+[9.261s] Copying ../../../../../../../../build/my-test-package/my_test_package.egg-info to /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/my-test-package/lib/python3.10/site-packages/my_test_package-1.0-py3.10.egg-info
+[9.268s] running install_scripts
+[9.380s] writing list of installed files to '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/my-test-package/install.log'
+[11.408s] Invoked command in '/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/venv/lib/python3.10/site-packages/pkg_resources/tests/data/my-test-package-source' returned '0': PYTHONPATH=/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/my-test-package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/install/my-test-package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../../build/my-test-package build --build-base /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/my-test-package/build install --record /home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/my-test-package/install.log --single-version-externally-managed

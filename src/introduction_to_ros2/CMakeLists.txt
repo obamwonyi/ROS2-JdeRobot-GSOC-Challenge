@@ -9,6 +9,10 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)        # Add ROS2 C++ client library
 find_package(std_msgs REQUIRED)      # Add standard messages package
+find_package(gazebo REQUIRED)
+find_package(robot_state_publisher REQUIRED)
+find_package(turtlebot3_description REQUIRED)
+# Removed the find_package(launch_ros REQUIRED) line
 
 add_executable(introduction_to_ros2 src/introduction_to_ros2.cpp)
 target_include_directories(introduction_to_ros2 PUBLIC
@@ -24,6 +28,22 @@ ament_target_dependencies(introduction_to_ros2
 
 install(TARGETS introduction_to_ros2
         DESTINATION lib/${PROJECT_NAME})
+
+# Install launch files
+install(DIRECTORY launch
+        DESTINATION share/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+        launch
+        rviz
+        DESTINATION share/${PROJECT_NAME}/
+)
+
+## Install RViz configuration files
+#install(DIRECTORY rviz
+#        DESTINATION share/${PROJECT_NAME}
+#)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

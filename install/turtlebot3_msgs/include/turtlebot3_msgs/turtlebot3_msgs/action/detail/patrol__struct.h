@@ -1,0 +1,1 @@
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/build/turtlebot3_msgs/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__struct.h

@@ -11,12 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/introduction_to_ros2/src/introduction_to_ros2.cpp" "CMakeFiles/introduction_to_ros2.dir/src/introduction_to_ros2.cpp.o" "gcc" "CMakeFiles/introduction_to_ros2.dir/src/introduction_to_ros2.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

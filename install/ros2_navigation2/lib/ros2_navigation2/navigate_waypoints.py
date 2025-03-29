@@ -1,0 +1,1 @@
+/home/netweaver/Projects/GSOC/JdeRobot/ros2_challenge_ws/src/ros2_navigation2/scripts/navigate_waypoints.py
